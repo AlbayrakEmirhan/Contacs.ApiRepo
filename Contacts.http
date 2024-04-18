@@ -18,7 +18,7 @@ Content-Type: application/json
 PUT http://localhost:5200/persons/10
 Content-Type: application/json
 
-{   "Name":"  hintli",
+{   
     "Surname": "Albayrak",
     "mail": "ra@gmail.com",
     "phoneNumberId":1
