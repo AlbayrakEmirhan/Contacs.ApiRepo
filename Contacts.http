@@ -1,0 +1,28 @@
+GET http://localhost:5200/persons
+
+###
+GET http://localhost:5200/persons/1
+
+###
+POST http://localhost:5200/persons
+Content-Type: application/json
+
+{
+    "Name": "gaddar",
+    "Surname": "Albayrak",
+    "mail": "Recep@gmail.com",
+    "phoneNumberId":3
+}
+
+###
+PUT http://localhost:5200/persons/10
+Content-Type: application/json
+
+{   "Name":" piç hintli",
+    "Surname": "Albayrak",
+    "mail": "ra@gmail.com",
+    "phoneNumberId":1
+}
+
+###
+DELETE http://localhost:5200/persons/9
